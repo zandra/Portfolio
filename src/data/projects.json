@@ -1,0 +1,37 @@
+[{
+  "id": 17,
+  "title": "Fitness Tracker",
+  "link": {
+    "github": "https://github.com/zandra/17-Workout_Tracker",
+    "deployed": "https://frozen-spire-86515.herokuapp.com/?id=5e583bb2ffafe93a7b897201"
+  },
+  "media": {
+    "type": "image",
+    "title": "image17",
+    "path": "./assets/image17.png"
+  }
+}, {
+  "id": 13,
+  "title": "Burgers Up",
+  "link": {
+    "github": "https://github.com/zandra/13-BurgersUp",
+    "deployed": "https://ancient-falls-51138.herokuapp.com"
+  },
+  "media": {
+    "type": "image",
+    "title": "image13",
+    "path": "./assets/image13.jpg"
+  }
+}, {
+  "id": 19,
+  "title": "React Employee Table",
+  "link": {
+    "github": "https://github.com/zandra/19-EmployeeTable",
+    "deployed": "https://employee-table-19.herokuapp.com"
+  },
+  "media": {
+    "type": "image",
+    "title": "image19",
+    "path": "./assets/image19.jpg"
+  }
+}]

@@ -1,14 +1,16 @@
 import React from "react";
 import "./About.css";
 import ImageContainer from "../components/ImageContainer";
+import profile from "../profile250.jpg";
 
 export default function About() {
   return (
     <div className="container">
       <div className="row">
         <div className="col col-md-6 col-sm-12" id="left">
+        <i className="fa fa-github" aria-hidden="true"></i>
           <ImageContainer 
-            src="../profile250.jpg"
+            src={profile}
             alt="Alex Stevens profile"
           />
         </div>
