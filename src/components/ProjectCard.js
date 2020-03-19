@@ -5,7 +5,7 @@ export default function EmployeeCard(props) {
 
   return (
   <div className="card">
-      <img src={props.src} className="card-img-top" style={{width: "250px", height: "250px"}} alt={props.title}/>
+      <img src={props.src} className="card-img-top img-fluid" alt={props.title}/>
     <div className="card-body">
       <h5 className="card-title text-center">{props.title}</h5>
     </div>

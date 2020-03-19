@@ -1,37 +1,65 @@
 [{
-  "id": 17,
-  "title": "Fitness Tracker",
-  "link": {
-    "github": "https://github.com/zandra/17-Workout_Tracker",
-    "deployed": "https://frozen-spire-86515.herokuapp.com/?id=5e583bb2ffafe93a7b897201"
+    "id": 6,
+    "title": "Weather App",
+    "link": {
+      "github": "https://github.com/zandra/BC06_WeatherApp",
+      "deployed": ""
+    },
+    "media": {
+      "type": "image",
+      "title": "image06",
+      "path": "./assets/image06.png"
+    }
   },
-  "media": {
-    "type": "image",
-    "title": "image17",
-    "path": "./assets/image17.png"
+  {
+    "id": 17,
+    "title": "Fitness Tracker",
+    "link": {
+      "github": "https://github.com/zandra/17-Workout_Tracker",
+      "deployed": "https://frozen-spire-86515.herokuapp.com/?id=5e583bb2ffafe93a7b897201"
+    },
+    "media": {
+      "type": "image",
+      "title": "image17",
+      "path": "./assets/image17.png"
+    }
+  }, {
+    "id": 13,
+    "title": "Burgers Up",
+    "link": {
+      "github": "https://github.com/zandra/13-BurgersUp",
+      "deployed": "https://ancient-falls-51138.herokuapp.com"
+    },
+    "media": {
+      "type": "image",
+      "title": "image13",
+      "path": "./assets/image13.jpg"
+    }
+  }, {
+    "id": 19,
+    "title": "React Employee Table",
+    "description": "React built Table with some filtering and sorting logic",
+    "link": {
+      "github": "https://github.com/zandra/19-EmployeeTable",
+      "deployed": "https://employee-table-19.herokuapp.com"
+    },
+    "media": {
+      "type": "image",
+      "title": "image19",
+      "path": "./assets/image19.png"
+    }
+  }, {
+    "id": 11,
+    "title": "Note Taker",
+    "description": "Simple Express/Node note-taker app",
+    "link": {
+      "github": "https://github.com/zandra/11-Notes",
+      "deployed": ""
+    },
+    "media": {
+      "type": "image",
+      "title": "image11",
+      "path": "./assets/image11.jpg"
+    }
   }
-}, {
-  "id": 13,
-  "title": "Burgers Up",
-  "link": {
-    "github": "https://github.com/zandra/13-BurgersUp",
-    "deployed": "https://ancient-falls-51138.herokuapp.com"
-  },
-  "media": {
-    "type": "image",
-    "title": "image13",
-    "path": "./assets/image13.jpg"
-  }
-}, {
-  "id": 19,
-  "title": "React Employee Table",
-  "link": {
-    "github": "https://github.com/zandra/19-EmployeeTable",
-    "deployed": "https://employee-table-19.herokuapp.com"
-  },
-  "media": {
-    "type": "image",
-    "title": "image19",
-    "path": "./assets/image19.jpg"
-  }
-}]
+]

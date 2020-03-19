@@ -8,7 +8,6 @@ export default function About() {
     <div className="container">
       <div className="row">
         <div className="col col-md-6 col-sm-12" id="left">
-        <i className="fa fa-github" aria-hidden="true"></i>
           <ImageContainer 
             src={profile}
             alt="Alex Stevens profile"
