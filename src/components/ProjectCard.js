@@ -1,24 +1,44 @@
-import React from "react";
-import "./ProjectCard.css";
+import React from 'react'
+import { Divider, makeStyles } from '@material-ui/core'
+import { Card, CardActionArea, CardActions, CardContent, CardMedia, IconButton, Typography  } from '@material-ui/core'
+import GitHubIcon from '@material-ui/icons/GitHub'
 
-export default function EmployeeCard(props) {
+const useStyles = makeStyles({
+  root: {
+    margin: 10
+  },
+  media: {
+    width: 250,
+    height: 250,
+  },
+});
+
+export default function ProjectCard(props) {
+  const classes = useStyles();
 
   return (
-  <div className="card">
-      <img src={props.src} className="card-img-top img-fluid" alt={props.title}/>
-    <div className="card-body">
-      <h5 className="card-title text-center">{props.title}</h5>
-    </div>
-    <ul className="list-group list-group-flush">
-      <li className="list-group-item">
-      <a href={props.github} className="card-link"><i className="fa fa-github"></i></a>
-        Github Link
-      </li>
-      <li className="list-group-item">
-      <a href={props.app} className="card-link"><i className="fa fa-flag"></i></a>
-        Application Link
-      </li>
-    </ul>
-  </div>
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={props.src}
+          title={props.title}
+        />
+        <Divider variant="middle" />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {props.title}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <IconButton href={props.github} aria-label="Github Link">
+          <GitHubIcon />
+        </IconButton>
+        <IconButton href={"www.google.com"} aria-label="Github Link">
+          <GitHubIcon />
+        </IconButton>
+      </CardActions>
+    </Card>
   );
 }

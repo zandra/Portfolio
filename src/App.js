@@ -1,26 +1,20 @@
-import React from 'react';
-import './App.css';
-import { HashRouter as Router, Route} from 'react-router-dom'
-import Navbar from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import Layout from './components/Layout'
 
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+    backgroundColor: theme.palette.background.paper,
+  },
+}));
 
 function App() {
+  const classes = useStyles();
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
-        </Wrapper>
-      </div>
-    </Router>
+    <div className={classes.root}>
+      <Layout />
+    </div>
   );
 }
 
