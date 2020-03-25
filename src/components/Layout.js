@@ -36,10 +36,7 @@ function a11yProps(index) {
 }
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-  },
+
 }));
 
 export default function Portfolio() {
@@ -51,7 +48,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className="container">
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="page tabs">
           <Tab label="About" {...a11yProps(0)} />

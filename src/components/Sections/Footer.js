@@ -1,6 +1,9 @@
 import React from 'react'
+import { Typography, AppBar  } from '@material-ui/core'
 
 export default props => 
- <div>
-   <p>My Footer</p>
- </div>
+ <AppBar position='static'>
+   <Typography variant="h6" align="center">
+     footer
+   </Typography>
+ </AppBar>
